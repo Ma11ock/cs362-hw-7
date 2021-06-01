@@ -11,7 +11,7 @@ class TestStringMethods(unittest.TestCase):
     def test_fizz1(self):
         self.assertTrue(isFizz(3))
     def test_fizz2(self):
-        self.assertFalse(2)
+        self.assertFalse(isFizz(2))
 
 
 if __name__ == '__main__':
